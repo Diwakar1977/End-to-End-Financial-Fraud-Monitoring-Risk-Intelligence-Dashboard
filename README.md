@@ -38,4 +38,5 @@ Total Records : 5 Million Transactions
 * payment_channel       -     payment method(UPI,Card,ACH,Wire)
 * ip_address            -     used during the transaction  
 * device_hash           -     unique encrypted identifier for the user's device
+* ldmgmf;dsf;
 
