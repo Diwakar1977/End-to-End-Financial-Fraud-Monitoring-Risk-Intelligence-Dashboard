@@ -1,6 +1,6 @@
 # End-to-End-Financial-Fraud-Monitoring-Risk-Intelligence-Dashboard
 A Scalable fraud analytics solution built on 5M+ transaction to enable real-time monitoring, behavioral risk scoring and investigation-level insights  
-# Project Overview 
+# 📌Project Overview 
 The financial fraud monitoring & risk intelligence dashboard is designed to analyze large scale financial transaction and identify fraudulent phatterns.The dashboard provides real-time insights into fraud treands high-risk accounts,merchant categories and transaction begaviors.
 Using interactive visulizations,the dashboard helps analyst detect suspicious activity,moniter fraud risk,and support data driven decision-making.
 # Key Goals
@@ -9,17 +9,17 @@ Using interactive visulizations,the dashboard helps analyst detect suspicious ac
 * Detect suspicious accounts
 * Track fradu trends over time
 * Analyze transactions patterns across regions and hours
-# Business Problem
+# 🎯Business Problem
 Financial instittions process millons of transaction daily,makig it difficult to manually detect fraudulent acitivity.
 # The keys challenges include 
-* Identifying fraudulent transactions in large datasets
-* Detecting high-risk merchant categories
-* Monitoring fraud activity across time and regions
-* Identifying suspicious accounts with abnormal transaction behavior
+ * Identifying fraudulent transactions in large datasets
+ * Detecting high-risk merchant categories
+ * Monitoring fraud activity across time and regions
+ * Identifying suspicious accounts with abnormal transaction behavior
 The dashboards helps fraud analysis quickly detect patterns and investigate anomalies.
-# Dataset Details
-Dataset Name : Financial Fraud Transactions
-Total Records : 5 Million Transactions
+# 📊Dataset Information
+* **Dataset Name** : Financial Fraud Transactions
+* **Total Records** : 5 Million Transactions
 **Key fields**
   **Column and Description**
     * **transaction_id**       -     unique ID every transaction
