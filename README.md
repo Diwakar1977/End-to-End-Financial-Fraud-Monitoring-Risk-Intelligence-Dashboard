@@ -17,47 +17,47 @@ Financial instittions process millons of transaction daily,makig it difficult to
  * Monitoring fraud activity across time and regions
  * Identifying suspicious accounts with abnormal transaction behavior
 The dashboards helps fraud analysis quickly detect patterns and investigate anomalies.
+ Tooltip and Technologies
+# 🛠Tools & Technologies
+**Tool and purpose**
+    * **Python(pandas)**: data preprocessing
+    * **MySQL**: data querying
+    * **Excel**: initial analysis
+    * **Power BI**: dashboard visulaization
+    * **GitHub**: project version control
+**Data preparation**
+ * **Data cleaning**
+  * converted timestamp column to datetime format
+  * remove duplicate transaction
+  * standardized merchant categories
+  * handled missing values
+ * **Feature engineering**
+  * fraud transaction count
+  * non-fraud transaction count
+  * fraud rate percentage
+  * fraud amount
+  * velocity risk score
+  * hourly fraud distribution
 # 📊Dataset Information
 * **Dataset Name** : Financial Fraud Transactions
 * **Total Records** : 5 Million Transactions
-**Key fields**
-  **Column and Description**
-    * **transaction_id**       -     unique ID every transaction
-    * **timestamp**             -     date and time transaction
-    * **sender_account**        -     account initiating the transaction 
-    * **receiver_account**      -     account number of the person receiving money
-    * **amount**                -     transactions value
-    * **transaction_type**      -     type of payment method
-    * **merchant_category**     -     merchant business category
-    * **location**              -     transaction location
-    * **device_used**           -     device used to perform the transaction
-    * **is_fraud**              -     fraud indicator(0 : non-fraud,1 : fraud)
-    * **spending_deviation_score** -  detect abnormal purchase patterns 
-    * **velocity_score**        -     risk score based on transaction frequency
-    * **geo_amomaly_score**     -     detect location based fraud
-    * **payment_channel**      -     payment method(UPI,Card,ACH,Wire)
-    * **ip_address**            -     used during the transaction  
-    * **device_hash**           -     unique encrypted identifier for the user's device
-# Tooltip and Technologies
-  **Tool and purpose**
-    * Python(pandas)-data preprocessing
-    * MySQL-data querying
-    * Excel-initial analysis
-    * Power BI-dashboard visulaization
-    * GitHub-project version control
-# Data preparation
-    # Data cleaning
-* converted timestamp column to datetime format
-* remove duplicate transaction
-* standardized merchant categories
-* handled missing values
-      # Feature engineering
-* fraud transaction count
-* non-fraud transaction count
-* fraud rate percentage
-* fraud amount
-* velocity risk score
-* hourly fraud distribution
+  * **Key fields**
+     * **transaction_id**: unique ID every transaction
+     * **timestamp**:date and time transaction
+     * **sender_account**: account initiating the transaction 
+     * **receiver_account**: account number of the person receiving money
+     * **amount**: transactions value
+     * **transaction_type**: type of payment method
+     * **merchant_category**: merchant business category
+     * **location**: transaction location
+     * **device_used**: device used to perform the transaction
+     * **is_fraud**: fraud indicator(0 : non-fraud,1 : fraud)
+     * **spending_deviation_score**: detect abnormal purchase patterns 
+     * **velocity_score**: risk score based on transaction frequency
+     * **geo_amomaly_score**: detect location based fraud
+     * **payment_channel**: payment method(UPI,Card,ACH,Wire)
+     * **ip_address**: used during the transaction  
+     * **device_hash**: unique encrypted identifier for the user's device
 # Key performance indicator(KPIs)
 **KPI value**
 * total transaction-5M
